@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="assets/style.min.css">
+</head>
+
+<body class="app">
+
+    <header role="banner" class="app__header mw960p mxa">
+
+        <hgroup>
+
+            <h1 id="title" class="ta-center man contenteditable" data-placeholder="Titre">
+                Titre de la liste
+            </h1>
+
+            <menu class="controller controller--title" aria-label="Gérer le titre de la liste de tâches">
+                <li>
+                    <button id="editTitle" class="controller--bubble" title="Modifier le titre">
+                        <span class="icon-pencil" aria-hidden="true"></span>
+                        <span class="sr-only">Modifier</span>
+                    </button>
+                </li>
+                <li>
+                    <button id="saveTitle" class="controller--bubble hidden" title="Enregistrer le titre">
+                        <span class="icon-floppy" aria-hidden="true"></span>
+                        <span class="sr-only">Enregistrer</span>
+                    </button>
+                </li>
+            </menu>
+
+        </hgroup>
+
+        <menu class="controller controller--main">
+            <li>
+                <button id="addTask" class="primary" title="Ajouter une tache">
+                    <span class="icon-plus" aria-hidden="true"></span>
+                    <span class="sr-only">Ajouter une tache</span>
+                </button>
+            </li>
+        </menu>
+
+    </header>
+
+    <main role="main" class="app__main mw960p mxa" tabindex="-1">
+
+        <section>
+
+            <ul class="tasks">
+            </ul>
+
+            <!-- 
+                template d'une tâche dans la liste à modifier en js avant de l'ajouter à la liste
+            -->
+            <template id="task">
+                <li id="" class="tasks__item">
+                    <input type="checkbox" name="" id="">
+                    <label for="" class="pls"><em class="placeholder">Libelle de la tâche</em></label>
+                    <select class="priority-select">
+                        <option value="low">Léger</option>
+                        <option value="medium">Médiocre</option>
+                        <option value="high">Importante</option>
+                    </select>
+
+                    <button id="editTask" class="edit" title="Modifier la tache">Modifier</button>
+                    <button id="deleteTask" class="delete" title="Supprimer la tache">Supprimer</button>
+                </li>
+            </template>
+
+        </section>
+
+        
+
+    </main>
+
+    <script src="api/todo.js"></script>
+    
+</body>
+</html>

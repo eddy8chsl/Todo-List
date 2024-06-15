@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2024 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icons" horiz-adv-x="1000" >
+<font-face font-family="icons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="trash-1" unicode="&#xe800;" d="M0 633l0 141 289 0 0 76 246 0 0-76 289 0 0-141-824 0z m43-783l0 676 738 0 0-676-738 0z" horiz-adv-x="824" />
+
+<glyph glyph-name="plus" unicode="&#xe801;" d="M0 209l0 282 359 0 0 359 282 0 0-359 359 0 0-282-359 0 0-359-282 0 0 359-359 0z" horiz-adv-x="1000" />
+
+<glyph glyph-name="floppy" unicode="&#xe802;" d="M214-7h429v214h-429v-214z m500 0h72v500q0 8-6 21t-11 20l-157 156q-5 6-19 12t-22 5v-232q0-22-15-38t-38-16h-322q-22 0-37 16t-16 38v232h-72v-714h72v232q0 22 16 38t37 16h465q22 0 38-16t15-38v-232z m-214 518v178q0 8-5 13t-13 5h-107q-7 0-13-5t-5-13v-178q0-7 5-13t13-5h107q7 0 13 5t5 13z m357-18v-518q0-22-15-38t-38-16h-750q-23 0-38 16t-16 38v750q0 22 16 38t38 16h517q23 0 50-12t42-26l156-157q16-15 27-42t11-49z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="pencil" unicode="&#xe803;" d="M0-143l68 343 274-273z m137 392l422 422 259-260-421-422z m531 494q2 39 31 69t69 31 66-25l131-131q25-26 24-66t-30-69-69-30-66 24l-131 131q-27 27-25 66z" horiz-adv-x="989" />
+
+<glyph glyph-name="asterisk-1" unicode="&#xe804;" d="M827 264q26-14 33-43t-7-55l-35-61q-15-26-44-33t-54 7l-149 85v-171q0-29-21-50t-50-22h-71q-29 0-51 22t-21 50v171l-148-85q-26-15-55-7t-43 33l-36 61q-14 26-7 55t34 43l148 86-148 86q-26 14-34 43t7 55l36 61q15 26 43 33t55-7l148-85v171q0 29 21 50t51 22h71q29 0 50-22t21-50v-171l149 85q26 15 54 7t44-33l35-61q15-26 7-55t-33-43l-148-86z" horiz-adv-x="928.6" />
+
+<glyph glyph-name="attention-alt" unicode="&#xf12a;" d="M286 154v-125q0-15-11-25t-25-11h-143q-14 0-25 11t-11 25v125q0 14 11 25t25 10h143q15 0 25-10t11-25z m17 589l-16-429q-1-14-12-25t-25-10h-143q-14 0-25 10t-12 25l-15 429q-1 14 10 25t24 11h179q14 0 25-11t10-25z" horiz-adv-x="357.1" />
+</font>
+</defs>
+</svg>
